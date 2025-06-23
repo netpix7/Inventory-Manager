@@ -1,0 +1,9 @@
+c:\users\lenovo\documents\visual studio 2015\Projects\InventoryManager\InventoryManager\bin\Debug\InventoryManager.exe.config
+C:\Users\LENOVO\documents\visual studio 2015\Projects\InventoryManager\InventoryManager\bin\Debug\InventoryManager.exe
+C:\Users\LENOVO\documents\visual studio 2015\Projects\InventoryManager\InventoryManager\bin\Debug\InventoryManager.pdb
+C:\Users\LENOVO\documents\visual studio 2015\Projects\InventoryManager\InventoryManager\obj\Debug\InventoryManager.csprojResolveAssemblyReference.cache
+C:\Users\LENOVO\documents\visual studio 2015\Projects\InventoryManager\InventoryManager\obj\Debug\InventoryManager.Form1.resources
+C:\Users\LENOVO\documents\visual studio 2015\Projects\InventoryManager\InventoryManager\obj\Debug\InventoryManager.Properties.Resources.resources
+C:\Users\LENOVO\documents\visual studio 2015\Projects\InventoryManager\InventoryManager\obj\Debug\InventoryManager.csproj.GenerateResource.Cache
+C:\Users\LENOVO\documents\visual studio 2015\Projects\InventoryManager\InventoryManager\obj\Debug\InventoryManager.exe
+C:\Users\LENOVO\documents\visual studio 2015\Projects\InventoryManager\InventoryManager\obj\Debug\InventoryManager.pdb
