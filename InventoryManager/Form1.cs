@@ -259,12 +259,12 @@ namespace InventoryManager
 
         private void dgvProductList_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-           // DisplayCellValue();
+            DisplayCellValue();
         }
 
         private void dgvProductList_SelectionChange(Object sender, EventArgs e)
         {
-            DisplayCellValue();
+            //DisplayCellValue();
         }
 
 
