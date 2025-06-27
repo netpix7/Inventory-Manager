@@ -1,0 +1,81 @@
+
+
+CREATE TABLE Products
+(
+    productid bigint IDENTITY(1,1) PRIMARY KEY NOT NULL,
+    product_name varchar(100) NULL,
+    category varchar(50) NULL,
+    quantity int NULL,
+    price decimal (18, 2) NULL,
+ 
+);
+
+/*****STORD PROCEDURES
+/******ADD_PRODUCTS
+
+CREATE procedure ADD_Product
+@Product_Name varchar(50),
+@Category varchar(50),
+@Quantity int,
+@Price decimal(18,2)
+
+AS
+begin
+
+INSERT INTO Products
+              (product_name, category,quantity, price)
+VALUES        (@Product_Name,@Category,@Quantity,@Price)
+end
+
+
+/*****************************************************************************
+
+
+CREATE procedure DEL_Products
+@ProductId bigint
+
+AS
+begin
+
+Delete from  Products where productid=@ProductId
+
+end
+/*****************************************************************************
+CREATE procedure SEL_Products
+AS
+begin
+SELECT   productid, product_name, category, quantity, price
+FROM      Products
+end
+
+/*****************************************************************************
+
+CREATE procedure UPD_Products
+@ProductId bigint,
+@Product_Name varchar(50),
+@Category varchar(50),
+@Quantity int,
+@Price decimal(18,2)
+AS
+begin
+
+UPDATE Products
+SET  product_name = @Product_Name, category = @Category, quantity = @Quantity, price = @Price
+where productid=@ProductId
+
+end
+
+/*****************************************************************************
+
+CREATE procedure SearchProduct
+@SearchFilter varchar(100)
+
+AS
+begin
+    SELECT * FROM PRODUCTS
+    WHERE(@SearchFilter is null or product_name
+    LIKE '%' + @SearchFilter + '%' or category
+    LIKE '%' + @SearchFilter + '%');
+end
+
+/*****************************************************************************
